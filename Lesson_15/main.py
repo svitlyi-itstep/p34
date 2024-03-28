@@ -35,7 +35,6 @@ async def all_messages(message: types.Message):
 
 
 async def main():
-    await bot.send_message(chat_id=393743781, text='Бот запущено!')
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
